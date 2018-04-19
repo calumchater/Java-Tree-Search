@@ -1,0 +1,17 @@
+digraph G {
+nuage-> cirro
+cirro-> cirrus
+cirro-> cirrocumulus
+cirro-> cirrostratus
+nuage-> alto
+alto-> altocumulus
+alto-> altostratus
+nuage-> nuage_bas
+nuage_bas-> sans_developpement_vertical
+sans_developpement_vertical-> stratus
+sans_developpement_vertical-> stratocumulus
+nuage_bas-> a_grand_developpement_vertical
+a_grand_developpement_vertical-> nimbostratus
+a_grand_developpement_vertical-> cumulus
+a_grand_developpement_vertical-> cumulonimbus
+}
